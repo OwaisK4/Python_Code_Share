@@ -1,7 +1,7 @@
 import sys
 
 data = []
-n = 100
+n = 10000
 for k in range(n):
     a = len(data)
     b = sys.getsizeof(data)
