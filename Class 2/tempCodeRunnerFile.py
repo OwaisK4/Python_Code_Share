@@ -1,6 +1,4 @@
-15]
-# a.append(True)
-# print(a)
-# a.pop()
-# print(a)
-# print(a.count("name"))
+for i in range(1, 11):
+#     for j in range(i, 11):
+#         if i + j == 12:
+#             print(f"{i} + {j} == 12")

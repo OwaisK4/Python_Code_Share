@@ -15,13 +15,14 @@ for i in range(num):
 #         print(i, j)
 
 # Let x, y such that x + y = 12
-for i in range(1, 11):
-    for j in range(i, 11):
-        if i + j == 12:
-            print(f"{i} + {j} == 12")
+# for i in range(1, 11):
+#     for j in range(i, 11):
+#         if i + j == 12:
+#             print(f"{i} + {j} == 12")
 
-for i in range(10):
-    for j in range(i):
-        print(" " * i, end="")
-        print("*", end=" ")
-    print()
+for i in range(5):
+    for j in range(5 - i):
+        # print(" " * i, end="")
+        print(" ", end="")
+    print("*")
+    # print()
