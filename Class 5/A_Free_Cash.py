@@ -3,8 +3,11 @@ d = {}
 for i in range(n):
     time = input()
     if time not in d:
-        d[time] = 0
-    d[time] += 1
+        d[time] = 1
+    else:
+        d[time] += 1
+        # d[time] = d[time] + 1
+    print(d)
 
 # print(d)
 maximum = 0
